@@ -1,0 +1,189 @@
+
+@font-face
+{
+font-family: 'muli';
+src: url(../fonts/Muli/Muli-Regular.ttf);
+}
+@font-face
+{
+font-family: 'Lato';
+src: url(../fonts/Lato/Lato-Regular.ttf);
+
+}
+@font-face
+{
+font-family: 'cata';
+src: url(../fonts/Catamaran/Catamaran-Regular.ttf);
+
+}
+@font-face
+{
+font-family: 'Latom';
+src: url(file:///C:/Users/didier/Documents/Site%20sans%20nom%202/assistance/assets/fonts/Lato/Lato-Light.ttf);
+
+}
+/*
+Navbar*/
+
+h1{
+	color: #38CDAC
+}
+#maBare{
+	height: 50px;
+	background: #38CDAC;
+	margin-bottom: 20px
+}
+#maBare i{
+	margin-left: 40px;
+	font-size: 2em;
+	color: #fff;
+	
+		
+}
+#navBar{
+	border: none;
+	margin-bottom: 20px;
+}
+#navBar{
+	font-family: 'muli';
+	font-size: 1.2em;
+		
+}
+/*
+Conteneur*/
+
+#monContainer1{
+	background: url(../img/ju2.png);
+	height: 500px;
+	padding-top: 50px;
+}
+#monContainer1 h1{
+	font-family: 'muli';
+	color: #05c1e9;
+	font-size: 3em;
+}
+#monContainer1 h3{
+	font-family: 'cata';
+	color: #fff;;
+}
+#monContainer1 h4{
+	font-family: 'cata';
+	color: #fff;
+}
+#monContenaire3{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#monContenaire3 img{
+	width: 50px;
+}
+#monContenaire3 i{
+	font-size: 2.5em;
+	display: block;
+	text-align: center;
+	color: #3BB8B8;
+}
+#monContenaire3 p{
+	text-align: center;
+	opacity: 0.6;
+}
+#monContenaire3 h1{
+	margin-bottom: 50px;
+	font-family: 'cata';
+	font-size: 3em;	
+}
+#monContenaire3 h2,p{
+	font-family: 'Latom';
+	
+}
+#monContenaire3 h2{
+	font-size: 1.5em;
+}
+#monContainer4 img{
+	width: 50px;
+}
+
+
+#monContainer4 p{
+	text-align: center;
+	opacity: 0.6;
+	color: #fff;
+}
+#monContainer4 h2{
+	font-family: 'Latom';
+	font-size: 1.5em;
+	color: #fff;
+}
+#monContainer4 h1{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: 'cata';
+	font-size: 3em;
+	color: #fff;
+}
+#monContainer4 {
+	background: -webkit-linear-gradient(left,  #3bb8b8, #34e79e);
+	 background: -o-linear-gradient(left, #3bb8b8, ##34e79e);
+	 background:  url(../img/bg-pattern.png) fixed, linear-gradient(to right, #3bb8b8, #34e79e) fixed;
+        /*-webkit-text-fill-color: transparent;*/
+			
+	/*background: #F0F6F8	;*/
+	padding-bottom: 50px
+}
+#monConteneur8{
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+#monConteneur8 h1{
+	padding-bottom: 50px;
+}
+#monConteneur8 .cercle{
+	display: inline-block;
+	padding-top: 80px;
+	text-align: center;
+	line-height: 20px;
+	vertical-align: middle;
+}
+#monConteneur8 .cercle h2{
+	font-family: 'Lato';
+	font-weight: bold;
+}
+/*bouton*/
+
+#bouton1,#bouton2{
+	background: #38CDAC;
+	color: #fff;
+	border-radius: 7px;
+}
+.cercle{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background: #38CDAC;
+	margin: 5px;
+	color:#fff; 
+}
+
+
+									/*Footer*/
+
+#monFooter{
+	padding-top: 30px;
+	height: 400px;
+	background: url(../img/footer1.png);
+}
+#monFooter ul li{
+	margin: 5px;
+	color: #fff;
+	font-family: 'muli';
+	font-size: 1.2em
+}
+#monFooter h2{
+	color: #fff;
+	font-family: 'latom';
+	font-weight: bold;
+	text-align: center;
+}
